@@ -1,0 +1,122 @@
+.body {
+  background-image: url("https://s1.1zoom.me/b5050/958/Clone_trooper_Star_Wars_Movies_Helmet_518354_1920x1080.jpg");
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  background-position: center;
+}
+
+.h2 {
+  height: 25px;
+  text-align: center;
+}
+
+.texto {
+  border: 1px solid rgba(0, 0, 0, 0);
+  border-radius: 20px;
+  width: 250px;
+  text-align: center;
+  color: white;
+  backdrop-filter: blur(20px);
+}
+
+.containerJedi {
+  border-radius: 20px;
+  border: 1px solid black;
+  backdrop-filter: blur(20px);
+  transition: all 0.5s ease-in-out;
+}
+
+.containerJedi:hover {
+  box-shadow: 0 0 15px rgb(18, 255, 18);
+  text-shadow: 0 0 15px rgb(18, 255, 18);
+}
+
+.containerSith {
+  border-radius: 20px;
+  border: 1px solid black;
+  backdrop-filter: blur(20px);
+}
+
+.containerSith:hover {
+  box-shadow: 0 0 15px red;
+  text-shadow: 0 0 15px red;
+}
+
+.opcao:hover {
+  color: black;
+}
+
+.jedi {
+  color: #00bc40;
+}
+
+.sith {
+  color: red;
+}
+
+.select {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 15px 45px;
+  font-size: 20px;
+  background: transparent;
+  border: 2px solid #ffffff;
+  color: #ffffff;
+  cursor: pointer;
+  transition: all 0.7s ease-in-out;
+  backdrop-filter: blur(20px);
+  border-radius: 20px;
+}
+
+.select:hover {
+  box-shadow: 0 0 15px white;
+  text-shadow: 0 0 15px white;
+}
+
+.enviarJedi {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 15px;
+  font-size: 20px;
+  background: transparent;
+  border: 2px solid #f7f7f7;
+  color: #ffffff;
+  cursor: pointer;
+  transition: 0.7s;
+  backdrop-filter: blur(20px);
+  border-radius: 20px;
+}
+
+.enviarSith {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 15px;
+  font-size: 20px;
+  background: transparent;
+  border: 2px solid #f7f7f7;
+  color: #ffffff;
+  cursor: pointer;
+  transition: 0.7s;
+  backdrop-filter: blur(20px);
+  border-radius: 20px;
+}
+
+.enviarJedi:hover {
+  box-shadow: 0 0 15px rgb(18, 255, 18);
+  text-shadow: 0 0 15px rgb(18, 255, 18);
+}
+
+.enviarSith:hover {
+  border-radius: 20px;
+  box-shadow: 0 0 15px red;
+  text-shadow: 0 0 15px red;
+}
