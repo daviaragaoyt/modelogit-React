@@ -22,12 +22,11 @@
   backdrop-filter: blur(20px);
 }
 
-.form {
+.form{
   justify-content: center;
   align-items: center;
   text-align: center;
-  display: block;
-    margin-top: 0em;
+
 }
 
 .containerJedi {
